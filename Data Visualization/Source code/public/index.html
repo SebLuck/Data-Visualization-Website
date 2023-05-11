@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Data Visualization </title>
+		<!-- Add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- css file -->
+		<link rel="stylesheet" type="text/css" href="css/index.css" >
+		<!-- Include Plotly JavaScript library -->
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        
+	</head>
+    <body>
+		<div class="line"></div>
+		<p class="title"> Data Visualization Cryptocurrency</p>
+		<div class="line"></div>
+		<p class="histo">Historical Data</p>
+		<br>
+		<!-- Historical prediction Data -->
+		<div id="cryptoBTC" style="width:2250px;height:600px;"></div>
+		<br>
+		<div id="cryptoETH" style="width:2250px;height:600px;"></div>
+		<br>
+		<div id="cryptoUSDT" style="width:2250px;height:600px;"></div>
+		<br>
+		<div id="cryptoBNB" style="width:2250px;height:600px;"></div>
+		<br>
+		<div id="cryptoLTC" style="width:2250px;height:600px;"></div>
+
+		<br>
+		<div class="line"></div>
+		<p class="sentiment">Sentiment Analysis</p>
+		<!-- Pie chart for the sentiment Analysis -->
+		<br>
+		<div id="sentimentBTC"></div>
+		<div id="sentimentETH"></div>
+		<div id="sentimentUSDT"></div>
+		<div id="sentimentBNB"></div>
+		<div id="sentimentLTC"></div>
+		<script src="index.js"> </script>
+
+
+    </body>
+</html>
